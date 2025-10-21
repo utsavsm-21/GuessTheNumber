@@ -33,7 +33,7 @@ public class GuessTheNumber {
             }
         }
         if (attempts == maxAttempts && guess != randomNumber) {
-            System.out.println("\n❌ Sorry, you've used all your attempts. The correct number was: " + randomNumber);
+            System.out.println("\nSorry, you've used all your attempts. The correct number was: " + randomNumber);
         }
         sc.close();
     }
