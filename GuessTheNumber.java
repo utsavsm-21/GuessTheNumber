@@ -22,7 +22,7 @@ public class GuessTheNumber {
             guess = sc.nextInt();  
             attempts++;            
             if (guess == randomNumber) {
-                System.out.println("🎉 Congratulations! You guessed the number in " + attempts + " tries!");
+                System.out.println("Congratulations! You guessed the number in " + attempts + " tries!");
                 break; 
             } 
             else if (guess < randomNumber) {
